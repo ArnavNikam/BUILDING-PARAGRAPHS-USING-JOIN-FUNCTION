@@ -1,0 +1,33 @@
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+body {
+    text-align: center;
+}
+
+input {
+    border-color: black;
+    border-left: white;
+    border-right: white;
+    border-top: white;
+}
+
+.div_1 {
+    float: left;
+    width: 50%;
+}
+
+.div_2 {
+    float: right;
+    width: 50%;
+}
