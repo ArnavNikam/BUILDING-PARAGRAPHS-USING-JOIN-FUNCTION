@@ -9,13 +9,14 @@ function get_paragraph_1() {
     document.getElementById("P_1").innerHTML = input.join (". ") 
 }
 
+var input1 = [];
 
 function get_paragraph_2() {
     for (var i = 7 ; i <= 12 ; i++) {
-        input.push(document.getElementById("input_Box_" + i).value);
+        input1.push(document.getElementById("input_Box_" + i).value);
     }
-    console.log(input);
+    console.log(input1);
 
-    document.getElementById("P_2").innerHTML = input.join (". ") 
+    document.getElementById("P_2").innerHTML = input1.join (". ") 
 }
 
